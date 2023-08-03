@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <div class="container">
@@ -31,47 +34,59 @@
         <h1 class="hero_header">PROJECT</h1>
         <h2 class="hero_para">ARANYA</h2>
         <p class="hero_text">Pirimal Groups</p>
-        <img
-          alt="hero_img"
-          class="hero_img"
-          src="images/backgroundimage.jpg" />
-          <div class="popup_main">
-            <div class="popup_container">
-              <img class="popup_image" src="./images/backgroundimage.jpg" alt="image" />
-              <div class="popup_content_main">
-                <p class="popup_heading">Book Site Tour</p>
-                <div>
-                  <form>
-                    <div class="form_group">
-                      <p class="form_name">Name</p>
-                      <div style="margin-top: -20px;">
-                        <input class="text_field" type="text" required />
-                        <img class="field_icon" src="./images/bi_person.png" alt="icon" />
-                      </div>
+        <img alt="hero_img" class="hero_img" src="images/backgroundimage.jpg" />
+        <div class="popup_main">
+          <div class="popup_container">
+            <img
+              class="popup_image"
+              src="./images/backgroundimage.jpg"
+              alt="image" />
+            <div class="popup_content_main">
+              <p class="popup_heading">Book Site Tour</p>
+              <div>
+                <form id="tourForm">
+                  <div class="form_group">
+                    <p class="form_name">Name</p>
+                    <div style="margin-top: -20px">
+                      <input class="text_field" name="name" type="text" required />
+                      <img
+                        class="field_icon"
+                        src="./images/bi_person.png"
+                        alt="icon" />
                     </div>
-                    <div class="form_group">
-                      <p class="form_name">Email</p>
-                      <div style="margin-top: -20px;">
-                        <input class="text_field" type="email" required />
-                        <img class="field_icon" src="./images/Group.png" alt="icon" />
-                      </div>
+                  </div>
+                  <div class="form_group">
+                    <p class="form_name">Email</p>
+                    <div style="margin-top: -20px">
+                      <input class="text_field" type="email" name="email" />
+                      <img
+                        class="field_icon"
+                        src="./images/Group.png"
+                        alt="icon" />
                     </div>
-                    <div class="form_group">
-                      <p class="form_name">Mobile</p>
-                      <div style="margin-top: -20px;">
-                        <input class="text_field" type="tel" required />
-                        <img class="field_icon" src="./images/fluent_call-20-regular.png" alt="icon" />
-                      </div>
+                  </div>
+                  <div class="form_group">
+                    <p class="form_name">Mobile</p>
+                    <div style="margin-top: -20px">
+                      <input class="text_field" type="tel" name="contact" required />
+                      <img
+                        class="field_icon"
+                        src="./images/fluent_call-20-regular.png"
+                        alt="icon" />
                     </div>
-                    <button class="submit_button">Book Now</button>
-                  </form>
-                </div>
-              </div>
-              <div class="popup_close">
-                <span>&times;</span>
+                  </div>
+                  <input
+                    type="submit"
+                    class="submit_button"
+                    placeholder="Book Now" />
+                </form>
               </div>
             </div>
+            <div class="popup_close">
+              <span>&times;</span>
+            </div>
           </div>
+        </div>
       </section>
       <section class="second">
         <div>
@@ -135,7 +150,11 @@
               <div>
                 <label for="type">Property Type</label>
                 <br />
-                <input type="number" id="type" name="type" placeholder="2 BHK" />
+                <input
+                  type="number"
+                  id="type"
+                  name="type"
+                  placeholder="2 BHK" />
               </div>
             </div>
             <div class="input">
@@ -183,9 +202,13 @@
         <div class="more">
           <div class="feature">
             <img src="./images/img1.png" alt="topImg" class="topImg" />
-            <img src="./images/img2.png" style="margin-left: 0rem!important;" alt="bottomImg" class="bottomImg" />
-            <div style="margin-left: 10rem;">
-              <h5 style="width: 20vw;">MUMBAI</h5>
+            <img
+              src="./images/img2.png"
+              style="margin-left: 0rem !important"
+              alt="bottomImg"
+              class="bottomImg" />
+            <div style="margin-left: 10rem">
+              <h5 style="width: 20vw">MUMBAI</h5>
               <h1>OUR APARTMENTS</h1>
               <p class="points">
                 Presenting Piramal Aranya, a high rise gated sanctuary that
@@ -218,7 +241,7 @@
             <img src="./images/img4.png" alt="bottomImg" class="bottomImg" />
           </div>
         </div>
-        <hr style="margin-top: 3rem;" />
+        <hr style="margin-top: 3rem" />
         <div class="numbers">
           <div>
             <h2>50+</h2>
@@ -275,7 +298,7 @@
               <div class="serviceDesc">
                 <h3>RECEPTION</h3>
                 <p>6 area for receptionist serve 24/7</p>
-            </div>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -300,10 +323,10 @@
                   </defs>
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>SECURITY</h3>
-              <p>Security team with 24/7 camera system</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>SECURITY</h3>
+                <p>Security team with 24/7 camera system</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -337,10 +360,10 @@
                   </defs>
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>FIRE ALARM</h3>
-              <p>Automatic fire extinguishing system</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>FIRE ALARM</h3>
+                <p>Automatic fire extinguishing system</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -370,10 +393,10 @@
                     fill="#00E5A1" />
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>PARKING</h3>
-              <p>Parking area with extra capacity</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>PARKING</h3>
+                <p>Parking area with extra capacity</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -388,10 +411,10 @@
                     fill="#00E5A1" />
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>CONFERENCE ROOM</h3>
-              <p>5 conference room setup in each block</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>CONFERENCE ROOM</h3>
+                <p>5 conference room setup in each block</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -434,10 +457,10 @@
                   </defs>
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>CONDITIONING</h3>
-              <p>ensure ventilation and air conditioning</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>CONDITIONING</h3>
+                <p>ensure ventilation and air conditioning</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -480,10 +503,10 @@
                   </defs>
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>SUPERMARKET</h3>
-              <p>5 supermarket in each block</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>SUPERMARKET</h3>
+                <p>5 supermarket in each block</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -508,10 +531,10 @@
                   </defs>
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>SPA AND MASSAGE</h3>
-              <p>Spa and Massage service for better health</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>SPA AND MASSAGE</h3>
+                <p>Spa and Massage service for better health</p>
+              </div>
             </li>
             <li>
               <div class="serviceImg">
@@ -532,150 +555,194 @@
                     fill="#00E5A1" />
                 </svg>
               </div>
-            <div  class="serviceDesc">
-              <h3>4 SEASON POOL</h3>
-              <p>5 star indoor swimming 4 seasons</p>
-            </div>
+              <div class="serviceDesc">
+                <h3>4 SEASON POOL</h3>
+                <p>5 star indoor swimming 4 seasons</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <img src="./images/interior.png" alt="interior" class="interior"/>
+      <img src="./images/interior.png" alt="interior" class="interior" />
       <section class="advantages">
         <strong class="serviceName">THE ADVANTAGES</strong>
         <h1 class="serviceFeature">AMENITIES</h1>
         <div class="advGrid">
-            <ul>
-                <li>
-                   <h3 class="num">1</h3> 
-                   <h2>top CLASS CLUB & FACILITIES</h2>
-                   <img src="./images/img5.png" alt="img5"/>
-                   <p>With a wide range of active and relaxing hubs, kids as well as adult spaces and curated indoor & outdoor activities, be
-                    tempted to try something new every day.</p>
-                </li>
-                <li>
-                    <h3 class="num">2</h3>
-                    <h2>Tower Exclusive Amenities & Facilities</h2>
-                    <img src="./images/img6.png" alt="img6" />
-                    <p>With a wide range of active and relaxing hubs, kids as well as adult spaces and curated indoor & outdoor
-                        activities, be
-                        tempted to try something new every day.</p>
-                </li>
-                <li>
-                    <h3 class="num">3</h3>
-                    <h2>Recreational Amenities & Facilities</h2>
-                    <img src="./images/img7.png" alt="img7" />
-                    <p>With a wide range of active and relaxing hubs, kids as well as adult spaces and curated indoor & outdoor
-                        activities, be
-                        tempted to try something new every day.</p>
-                </li>
-                <li>
-                    <h3 class="num">4</h3>
-                    <h2>Multipurpose Games Room</h2>
-                    <img src="./images/img8.png" alt="img8" />
-                    <p>With a wide range of active and relaxing hubs, kids as well as adult spaces and curated indoor & outdoor
-                        activities, be
-                        tempted to try something new every day.</p>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <h3 class="num">1</h3>
+              <h2>top CLASS CLUB & FACILITIES</h2>
+              <img src="./images/img5.png" alt="img5" />
+              <p>
+                With a wide range of active and relaxing hubs, kids as well as
+                adult spaces and curated indoor & outdoor activities, be tempted
+                to try something new every day.
+              </p>
+            </li>
+            <li>
+              <h3 class="num">2</h3>
+              <h2>Tower Exclusive Amenities & Facilities</h2>
+              <img src="./images/img6.png" alt="img6" />
+              <p>
+                With a wide range of active and relaxing hubs, kids as well as
+                adult spaces and curated indoor & outdoor activities, be tempted
+                to try something new every day.
+              </p>
+            </li>
+            <li>
+              <h3 class="num">3</h3>
+              <h2>Recreational Amenities & Facilities</h2>
+              <img src="./images/img7.png" alt="img7" />
+              <p>
+                With a wide range of active and relaxing hubs, kids as well as
+                adult spaces and curated indoor & outdoor activities, be tempted
+                to try something new every day.
+              </p>
+            </li>
+            <li>
+              <h3 class="num">4</h3>
+              <h2>Multipurpose Games Room</h2>
+              <img src="./images/img8.png" alt="img8" />
+              <p>
+                With a wide range of active and relaxing hubs, kids as well as
+                adult spaces and curated indoor & outdoor activities, be tempted
+                to try something new every day.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="about">
         <h1>SPECTACULAR</h1>
         <h1>SURROUNDINGS</h1>
         <h1>AS FAR AS THE EYE CAN SEE</h1>
-        <p>Piramal Aranya is an ode to perfection. It balances contemporary design with the scenic natural beauty of its
-        environment. Every residence invites you to soak in the surroundings, from the endless greenery of Rani Baug on the
-        western side and the shimmering Arabian Sea on the east. Avyan at Piramal Aranya will be home to something truly
-        spectacular with premium dual aspect living</p>
+        <p>
+          Piramal Aranya is an ode to perfection. It balances contemporary
+          design with the scenic natural beauty of its environment. Every
+          residence invites you to soak in the surroundings, from the endless
+          greenery of Rani Baug on the western side and the shimmering Arabian
+          Sea on the east. Avyan at Piramal Aranya will be home to something
+          truly spectacular with premium dual aspect living
+        </p>
         <div class="percentages">
-            <span class="percent">
-                <h1 >66%</h1>
-                <p>Botanical garden views</p>
-            </span>
-            <span class="percent">
-                <h1>33%</h1>
-                <p>Mumbai harbour and botanical garden views</p>
-            </span>
-            <span class="percent">
-                <h1>66%</h1>
-                <p>Mumbai harbour views</p>
-            </span>
+          <span class="percent">
+            <h1>66%</h1>
+            <p>Botanical garden views</p>
+          </span>
+          <span class="percent">
+            <h1>33%</h1>
+            <p>Mumbai harbour and botanical garden views</p>
+          </span>
+          <span class="percent">
+            <h1>66%</h1>
+            <p>Mumbai harbour views</p>
+          </span>
         </div>
-        <hr>
+        <hr />
         <div class="locations">
-            <strong>LOCATION</strong>
-            <h1 >NEIGHBORHOOD</h1>
-            <ul class="location">
-                <li>
-                    <h3>Bhau Daji Lad Museum</h3>
-                    <p>3.5 Km Away</p>
-                </li>
-                <li>
-                    <h3>St. Paul’s Tamil Church</h3>
-                    <p>3.5 Km Away</p>
-                </li>
-                <li>
-                    <h3>Magen David Synagogue</h3>
-                    <p>3.5 Km Away</p>
-                </li>
-                <li>
-                    <h3>Byculla Club − Fire Temple</h3>
-                    <p>3.5 Km Away</p>
-                </li>
-            </ul>
+          <strong>LOCATION</strong>
+          <h1>NEIGHBORHOOD</h1>
+          <ul class="location">
+            <li>
+              <h3>Bhau Daji Lad Museum</h3>
+              <p>3.5 Km Away</p>
+            </li>
+            <li>
+              <h3>St. Paul’s Tamil Church</h3>
+              <p>3.5 Km Away</p>
+            </li>
+            <li>
+              <h3>Magen David Synagogue</h3>
+              <p>3.5 Km Away</p>
+            </li>
+            <li>
+              <h3>Byculla Club − Fire Temple</h3>
+              <p>3.5 Km Away</p>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="contact">
         <div>
-            <h1>CONTACT US</h1>
-            <p>Please enter details below and we shall get in touch with you shortly</p>
-            <form id="contactForm">
-                <div class="info">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                        <g clip-path="url(#clip0_1_97)">
-                            <path
-                                d="M7.5 0C5.31917 0 3.54492 1.77425 3.54492 3.95508C3.54492 6.13591 5.31917 7.91016 7.5 7.91016C9.68083 7.91016 11.4551 6.13591 11.4551 3.95508C11.4551 1.77425 9.68083 0 7.5 0Z"
-                                fill="#00E5A1" />
-                            <path
-                                d="M12.4209 10.494C11.3381 9.39454 9.90261 8.78906 8.37891 8.78906H6.62109C5.09742 8.78906 3.66193 9.39454 2.57912 10.494C1.50161 11.5881 0.908203 13.0322 0.908203 14.5605C0.908203 14.8032 1.10496 15 1.34766 15H13.6523C13.895 15 14.0918 14.8032 14.0918 14.5605C14.0918 13.0322 13.4984 11.5881 12.4209 10.494Z"
-                                fill="#00E5A1" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1_97">
-                                <rect width="15" height="15" rx="7.5" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                    <input type="text" name="name" placeholder="full Name"/>
-                </div>
-                <div class="info">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path
-                            d="M10.8091 0H5.19092C4.08183 0 3.19092 0.890909 3.19092 2V14C3.19092 15.1091 4.10001 16 5.19092 16H10.8091C11.9182 16 12.8091 15.1091 12.8091 14V2C12.8091 0.890909 11.9182 0 10.8091 0ZM8.0091 14.7091C7.50001 14.7091 7.10001 14.3091 7.10001 13.8C7.10001 13.2909 7.50001 12.8909 8.0091 12.8909C8.51819 12.8909 8.91819 13.2909 8.91819 13.8C8.91819 14.3091 8.51819 14.7091 8.0091 14.7091ZM11.9 11.9273H4.10001V2.67273H11.9V11.9273Z"
-                            fill="#00E5A1" />
-                    </svg>
-                    <input type="tel" name="contact" placeholder="contact number" minlength="10" maxlength="10" />
-                </div>
-                <div class="info">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
-                        <g clip-path="url(#clip0_1_111)">
-                            <path
-                                d="M11.7812 1.78906H1.21876C0.546694 1.78906 0 2.36992 0 3.08399V10.8535C0 11.5676 0.546694 12.1485 1.21876 12.1485H11.7812C12.4533 12.1485 13 11.5676 13 10.8535V3.08399C13 2.36992 12.4533 1.78906 11.7812 1.78906ZM11.7812 2.65234C11.8364 2.65234 11.8889 2.66451 11.937 2.68576L6.5 7.69251L1.06302 2.68576C1.11103 2.66454 1.16354 2.65234 1.21873 2.65234H11.7812ZM11.7812 11.2851H1.21876C0.99461 11.2851 0.812497 11.0917 0.812497 10.8535V3.59782L6.23379 8.58993C6.31037 8.66031 6.40518 8.69531 6.5 8.69531C6.59482 8.69531 6.68963 8.66034 6.76621 8.58993L12.1875 3.59782V10.8535C12.1875 11.0917 12.0054 11.2851 11.7812 11.2851Z"
-                                fill="#00E5A1" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1_111">
-                                <rect width="13" height="13.8125" fill="white" transform="translate(0 0.0625)" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                    <input type="email" name="email" placeholder="Email Address" />
-                </div>
-                <input type="submit" class="submit" placeholder="SUBMIT"/>
-            </form>
+          <h1>CONTACT US</h1>
+          <p>
+            Please enter details below and we shall get in touch with you
+            shortly
+          </p>
+          <form id="contactForm">
+            <div class="info">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none">
+                <g clip-path="url(#clip0_1_97)">
+                  <path
+                    d="M7.5 0C5.31917 0 3.54492 1.77425 3.54492 3.95508C3.54492 6.13591 5.31917 7.91016 7.5 7.91016C9.68083 7.91016 11.4551 6.13591 11.4551 3.95508C11.4551 1.77425 9.68083 0 7.5 0Z"
+                    fill="#00E5A1" />
+                  <path
+                    d="M12.4209 10.494C11.3381 9.39454 9.90261 8.78906 8.37891 8.78906H6.62109C5.09742 8.78906 3.66193 9.39454 2.57912 10.494C1.50161 11.5881 0.908203 13.0322 0.908203 14.5605C0.908203 14.8032 1.10496 15 1.34766 15H13.6523C13.895 15 14.0918 14.8032 14.0918 14.5605C14.0918 13.0322 13.4984 11.5881 12.4209 10.494Z"
+                    fill="#00E5A1" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_97">
+                    <rect width="15" height="15" rx="7.5" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <input type="text" name="name" placeholder="full Name" />
+            </div>
+            <div class="info">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none">
+                <path
+                  d="M10.8091 0H5.19092C4.08183 0 3.19092 0.890909 3.19092 2V14C3.19092 15.1091 4.10001 16 5.19092 16H10.8091C11.9182 16 12.8091 15.1091 12.8091 14V2C12.8091 0.890909 11.9182 0 10.8091 0ZM8.0091 14.7091C7.50001 14.7091 7.10001 14.3091 7.10001 13.8C7.10001 13.2909 7.50001 12.8909 8.0091 12.8909C8.51819 12.8909 8.91819 13.2909 8.91819 13.8C8.91819 14.3091 8.51819 14.7091 8.0091 14.7091ZM11.9 11.9273H4.10001V2.67273H11.9V11.9273Z"
+                  fill="#00E5A1" />
+              </svg>
+              <input
+                type="tel"
+                name="contact"
+                placeholder="contact number"
+                minlength="10"
+                maxlength="10" />
+            </div>
+            <div class="info">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="14"
+                viewBox="0 0 13 14"
+                fill="none">
+                <g clip-path="url(#clip0_1_111)">
+                  <path
+                    d="M11.7812 1.78906H1.21876C0.546694 1.78906 0 2.36992 0 3.08399V10.8535C0 11.5676 0.546694 12.1485 1.21876 12.1485H11.7812C12.4533 12.1485 13 11.5676 13 10.8535V3.08399C13 2.36992 12.4533 1.78906 11.7812 1.78906ZM11.7812 2.65234C11.8364 2.65234 11.8889 2.66451 11.937 2.68576L6.5 7.69251L1.06302 2.68576C1.11103 2.66454 1.16354 2.65234 1.21873 2.65234H11.7812ZM11.7812 11.2851H1.21876C0.99461 11.2851 0.812497 11.0917 0.812497 10.8535V3.59782L6.23379 8.58993C6.31037 8.66031 6.40518 8.69531 6.5 8.69531C6.59482 8.69531 6.68963 8.66034 6.76621 8.58993L12.1875 3.59782V10.8535C12.1875 11.0917 12.0054 11.2851 11.7812 11.2851Z"
+                    fill="#00E5A1" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_111">
+                    <rect
+                      width="13"
+                      height="13.8125"
+                      fill="white"
+                      transform="translate(0 0.0625)" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <input type="email" name="email" placeholder="Email Address" />
+            </div>
+            <input
+              type="submit"
+              class="submit"
+              placeholder="SUBMIT"
+              onsubmit="" />
+          </form>
         </div>
-        <img src="./images/map.png" alt="map" class="map"/>
+        <img src="./images/map.png" alt="map" class="map" />
       </section>
     </div>
     <script src="index.js"></script>
