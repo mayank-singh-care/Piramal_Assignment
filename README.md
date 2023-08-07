@@ -1,4 +1,4 @@
-![pa7](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/6f1f2504-7c2c-495c-af0c-97290285ad49)# Project Documentation - PIRAMAL Assignment
+# Project Documentation - PIRAMAL Assignment
 
 ## Table of Contents
 
@@ -125,14 +125,23 @@ When sending data to the API and Google Sheets, it was essential to handle the r
 ## 5. Screenshots
    
    ![pa1](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/1eab908c-b15f-4bc3-bc43-6f3a03e8bf3e)
+   
    ![pa2](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/e064ab5e-c8cc-49cf-a68e-904742d78d4e)
+   
    ![pa3](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/eab3e358-8c6d-4fd8-a102-63f79b4f50d0)
+   
    ![pa4](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/40b164a1-b761-437c-b295-ce017cb9684a)
+   
    ![pa6](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/c3af75f2-490c-4761-afec-ecdbfccd7041)
+   
    ![pa7](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/8def0d21-a146-4797-bc34-76288e0bd35d)
+   
    ![pa8](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/6dfdba3f-10e9-4a39-af1b-0a1eb1e2588b)
+   
    ![pa9](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/f13f447f-b822-4d68-b3ea-dd53471a445e)
+   
    ![pa10](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/f4e5d2fe-e6b5-4eef-aa05-880d9494a892)
+   
    ![pa11](https://github.com/mayank-singh-care/Piramal_Assignment/assets/31184015/4df23197-afd9-430a-8af5-9de096f8c5b3)
 
 ---
